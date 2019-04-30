@@ -1,0 +1,7 @@
+---
+#Obtiene las configuraciones de los dispositivos Cisco
+
+- name: Show Run on Device
+     ios_command:
+       commands:
+         - show clock
